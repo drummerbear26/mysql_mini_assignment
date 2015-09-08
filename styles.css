@@ -1,36 +1,59 @@
 html {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
+	font-family: 'Maven', sans-serif;
+	color: #3d3d3d;
 }
-body {
-    background-color: #ccc;
-}
-.vehicles {
-    border-collapse: collapse;
-}
-.data-row td, .header-row th {
-    padding:12px;
-}
-.data-row.even {
-    background-color: #f1f1f1;
-}
-.data-row.odd {
-    background-color: #c1c1c1;
-}
-/* css only approach */
-/*.data-row:nth-child(odd){
-    background-color: #f1f1f1;
-}
-.data-row:nth-child(even){
-    background-color: red;
-}*/
-.table-row td {
-    border: none 0;
 
+body {
+	background-color: #909f90;
 }
-.header-row th {
-    border: none 0;
-    border-bottom: 1px solid #eee;
-    background-color: #fff;
-    font-size: 18px;
+
+.vehicles {
+	border-collapse: collapse;
 }
+
+.table_row td, .table_header th {
+	padding: 12px;
+}
+
+.table_row.even {
+	background-color: #d5f0d8;
+}
+
+.table_row.odd {
+	background-color: #177245;
+	color: #c0c0c0;
+}
+
+.table_row td {
+	border:  none 0;
+}
+
+.table_header th {
+	border: none 0;
+	border-bottom: 1px solid #b7e6bc;
+	background-color: #fff;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color:#d68633;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	font-size: 1.2em;
+	color: #3d3d3d;
+	-webkit-transition: background-color 0.5s, color 0.5s;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover {
+	background-color: #177245;
+	color: #d5f0d8;
+	border: none 0;
+}
+
